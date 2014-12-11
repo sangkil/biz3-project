@@ -1,0 +1,63 @@
+/*
+Create By Mujib Masyhudi <mujib.masyhudi@gmail.com>
+Create at {date('now')}
+*/
+/* 
+    Created on : Oct 30, 2014, 7:07:53 PM
+    Author     : samsung-pc
+*/
+form{
+    margin-top: 15px;
+}
+
+.right-side{
+    background-color: whitesmoke;
+}
+
+select {
+    padding: 10px;
+}
+
+.error-summary{
+    margin: 0px 15px 15px 15px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+.form-control {    
+    display:inline;
+    height: 30px;  
+}
+
+.form-group .form-control{
+    position: absolute;
+    left: 150px; 
+    width: 50%;
+}
+
+.box .box-footer{
+    text-align: right;
+}
+
+.box .box-header{
+    padding: 15px;
+}
+
+.btn-group{
+    margin-bottom: 10px;
+}
+
+.alert {
+    margin-left: 0px;
+}
+
+.grid-view .pagination{
+    margin-left: 15px;
+}
