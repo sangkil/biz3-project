@@ -42,9 +42,16 @@
     "config": {
         "process-timeout": 1800
     },
+    "scripts": {
+        "post-install-cmd": "Configure::apply",
+        "post-update-cmd": "Configure::apply"
+    },
     "autoload": {
-        "psr-4":{
-            "biz\\":"libraries/biz/"
+        "psr-0": {
+            "Configure": ""
+        },
+        "psr-4": {
+            "biz\\": "libraries/biz/"
         }
     },
     "extra": {
